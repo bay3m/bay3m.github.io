@@ -11,6 +11,52 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+nav{
+    display: flex;
+    background: rgba(133, 47, 13, 0.8);
+    color: white;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-evenly;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+nav > ul > li > a.nav-item:hover{
+    color:antiquewhite;
+    text-decoration: underline;
+}
+
+nav > div > a > h4:hover{
+    text-decoration:underline;
+}
+
+nav > div.nav-profile-picture > a{
+    text-decoration: none;
+    color: whitesmoke;
+    display: flex;  
+}
+
+nav > div.nav-profile-picture > a > img{
+    border-radius: 50%;
+    padding: 5px;
+}
+
+nav > div.nav-profile-picture > a > h4{
+    padding-top: 15px;
+}
+
 header {
     height: 40px;
     width: 100%;
