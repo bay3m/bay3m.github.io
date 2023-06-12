@@ -86,16 +86,28 @@ footer {
 @media screen and (max-width: 576px){
     
     body{
-        background: url(./pictures/dio.jpg) center;
+        background: url(./pictures/igris.jpg) center;
     }
 
     section > p::after{
         content: "hai sayang";
-        color: #f7ef68;
+        color: gray;
     }
 
     section > h1{
-        color: #f7ef68;
+        color: gray;
         font-size: 18px;
+    }
+
+    nav{
+        background: none;
+    }
+
+    header{
+        background: none;
+    }
+
+    footer{
+        background: none;
     }
 }
