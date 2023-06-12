@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 100%;
+            height: 100vh;
+            background-color: bisque;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        nav{
+            display: flex;
+            background: rgba(133, 47, 13, 0.8);
+            color: white;
+            justify-content: space-between;
+            height: 50px;
+            align-items: center;
+        }
+
+        nav ul{
+            display: flex;
+            list-style: none;
+            width: 40%;
+            justify-content: space-evenly;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 0.8em;
+        }
+
+        nav > ul > li > a.nav-item:hover{
+            color:antiquewhite;
+            text-decoration: underline;
+        }
+
+        nav > div > a > h4:hover{
+            text-decoration:underline;
+        }
+
+        nav > div.nav-profile-picture > a{
+            text-decoration: none;
+            color: whitesmoke;
+            display: flex;  
+        }
+
+        nav > div.nav-profile-picture > a > img{
+            border-radius: 50%;
+            padding: 5px;
+        }
+
+        nav > div.nav-profile-picture > a > h4{
+            padding-top: 15px;
+        }
+
+        section{
+            /* background-color: aqua; */
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media screen and (max-width: 576px) {
+            
+            body{
+                background: url(gon.jpg) center;
+            }
+
+            nav{
+                background: none;
+            }
+
+            section{
+                justify-content: flex-start;
+            }
+
+            section > h3{
+                color: whitesmoke;
+            }
+
+            section > ul > li > a{
+                color: whitesmoke;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-item nav-profile-picture">
+            <a href="#">
+                <img src="kc.jpg" alt="404" height="40px;" width="auto;">
+                <h4>bay3m</h4>
+            </a>
+        </div>
+
+        <ul>
+            <li><a href="#" class="nav-item">profile</a></li>
+            <li><a href="#" class="nav-item">contact</a></li>
+            <li><a href="index.html" class="nav-item">home</a></li>
+        </ul>
+    </nav>
+
+    <section>
+
+        <h3>this is my projects</h3>
+        <ul>
+            <li><a href="./projects/kumbang.html">kumbang</a></li>    
+        </ul>
+    </section>
+</body>
+</html>

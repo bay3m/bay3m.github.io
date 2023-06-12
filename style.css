@@ -86,7 +86,6 @@ footer {
 @media screen and (max-width: 576px){
     
     body{
-        background-color: none;
         background: url(dio.jpg) center;
         
     }
