@@ -72,9 +72,32 @@ section {
     align-items: center;
 }
 
+section > p::after{
+    content: "udah itu aja...";
+}
+
 footer {
     width: 100%;
     height: 100px;
     box-sizing: border-box;
     background-color: rgb(87, 89, 91);
+}
+
+@media screen and (max-width: 576px){
+    
+    body{
+        background-color: none;
+        background: url(dio.jpg) center;
+        
+    }
+
+    section > p::after{
+        content: "hai sayang";
+        color: #f7ef68;
+    }
+
+    section > h1{
+        color: #f7ef68;
+        font-size: 18px;
+    }
 }
